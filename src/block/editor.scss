@@ -1,0 +1,19 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.magic-number-editor {
+  display: flex;
+}
+
+.wp-block-cooltech-block-magic-numbers  {
+/*  background: $green; */
+  border: 0.1rem solid $gray;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 1rem;
+}
